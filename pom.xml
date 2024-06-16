@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.github.binarywang</groupId>
+  <groupId>top.zrank.software</groupId>
   <artifactId>wx-java</artifactId>
   <version>4.6.2.B</version>
   <packaging>pom</packaging>
@@ -331,16 +331,16 @@
     </dependencies>
   </dependencyManagement>
 
-  <distributionManagement>
+<!--  <distributionManagement>
     <snapshotRepository>
-      <id>ossrh</id>
+      <id>rdc</id>
       <url>https://oss.sonatype.org/content/repositories/snapshots</url>
     </snapshotRepository>
     <repository>
-      <id>ossrh</id>
+      <id>rdc</id>
       <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
     </repository>
-  </distributionManagement>
+  </distributionManagement>-->
 
   <profiles>
     <profile>
@@ -430,7 +430,7 @@
     </pluginManagement>
 
     <plugins>
-      <plugin>
+<!--      <plugin>
         <groupId>org.sonatype.plugins</groupId>
         <artifactId>nexus-staging-maven-plugin</artifactId>
         <version>1.6.3</version>
@@ -440,7 +440,7 @@
           <nexusUrl>https://oss.sonatype.org/</nexusUrl>
           <autoReleaseAfterClose>true</autoReleaseAfterClose>
         </configuration>
-      </plugin>
+      </plugin>-->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-release-plugin</artifactId>

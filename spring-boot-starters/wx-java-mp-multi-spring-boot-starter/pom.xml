@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <parent>
     <artifactId>wx-java-spring-boot-starters</artifactId>
-    <groupId>com.github.binarywang</groupId>
+    <groupId>top.zrank.software</groupId>
     <version>4.6.2.B</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
@@ -15,7 +15,7 @@
 
   <dependencies>
     <dependency>
-      <groupId>com.github.binarywang</groupId>
+      <groupId>top.zrank.software</groupId>
       <artifactId>weixin-java-mp</artifactId>
       <version>${project.version}</version>
     </dependency>
